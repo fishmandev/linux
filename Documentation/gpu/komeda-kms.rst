@@ -481,7 +481,7 @@ Build komeda to be a Linux module driver
 Now we have two level devices:
 
 -   komeda_dev: describes the real display hardware.
--   komeda_kms_dev: attachs or connects komeda_dev to DRM-KMS.
+-   komeda_kms_dev: attaches or connects komeda_dev to DRM-KMS.
 
 All komeda operations are supplied or operated by komeda_dev or komeda_kms_dev,
 the module driver is only a simple wrapper to pass the Linux command
